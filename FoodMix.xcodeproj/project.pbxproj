@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		1C74201727F45C590087D2E9 /* FoodMixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74201627F45C590087D2E9 /* FoodMixApp.swift */; };
 		1C74201927F45C590087D2E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74201827F45C590087D2E9 /* ContentView.swift */; };
-		1C74201B27F45C5A0087D2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C74201A27F45C5A0087D2E9 /* Assets.xcassets */; };
 		1C74201E27F45C5A0087D2E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C74201D27F45C5A0087D2E9 /* Preview Assets.xcassets */; };
+		1C74202527F464950087D2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C74202427F464950087D2E9 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C74201327F45C590087D2E9 /* FoodMix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodMix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C74201627F45C590087D2E9 /* FoodMixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodMixApp.swift; sourceTree = "<group>"; };
 		1C74201827F45C590087D2E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1C74201A27F45C5A0087D2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C74201D27F45C5A0087D2E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C74202427F464950087D2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Desktop/FoodMix-Swift/FoodMix/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +51,9 @@
 		1C74201527F45C590087D2E9 /* FoodMix */ = {
 			isa = PBXGroup;
 			children = (
+				1C74202427F464950087D2E9 /* Assets.xcassets */,
 				1C74201627F45C590087D2E9 /* FoodMixApp.swift */,
 				1C74201827F45C590087D2E9 /* ContentView.swift */,
-				1C74201A27F45C5A0087D2E9 /* Assets.xcassets */,
 				1C74201C27F45C5A0087D2E9 /* Preview Content */,
 			);
 			path = FoodMix;
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C74202527F464950087D2E9 /* Assets.xcassets in Resources */,
 				1C74201E27F45C5A0087D2E9 /* Preview Assets.xcassets in Resources */,
-				1C74201B27F45C5A0087D2E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
