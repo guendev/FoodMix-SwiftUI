@@ -11,6 +11,7 @@
 		1C74201927F45C590087D2E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74201827F45C590087D2E9 /* ContentView.swift */; };
 		1C74201E27F45C5A0087D2E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C74201D27F45C5A0087D2E9 /* Preview Assets.xcassets */; };
 		1C74202527F464950087D2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C74202427F464950087D2E9 /* Assets.xcassets */; };
+		1C74202827F467350087D2E9 /* FoodMix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C74202627F467350087D2E9 /* FoodMix.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1C74201827F45C590087D2E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C74201D27F45C5A0087D2E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C74202427F464950087D2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Desktop/FoodMix-Swift/FoodMix/Assets.xcassets"; sourceTree = "<group>"; };
+		1C74202727F467350087D2E9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1C74201527F45C590087D2E9 /* FoodMix */ = {
 			isa = PBXGroup;
 			children = (
+				1C74202627F467350087D2E9 /* FoodMix.xcdatamodeld */,
 				1C74202427F464950087D2E9 /* Assets.xcassets */,
 				1C74201627F45C590087D2E9 /* FoodMixApp.swift */,
 				1C74201827F45C590087D2E9 /* ContentView.swift */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C74201927F45C590087D2E9 /* ContentView.swift in Sources */,
+				1C74202827F467350087D2E9 /* FoodMix.xcdatamodeld in Sources */,
 				1C74201727F45C590087D2E9 /* FoodMixApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +343,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1C74202627F467350087D2E9 /* FoodMix.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C74202727F467350087D2E9 /* Model.xcdatamodel */,
+			);
+			currentVersion = 1C74202727F467350087D2E9 /* Model.xcdatamodel */;
+			name = FoodMix.xcdatamodeld;
+			path = "../../../../Desktop/FoodMix-Swift/FoodMix/FoodMix.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1C74200B27F45C590087D2E9 /* Project object */;
 }
