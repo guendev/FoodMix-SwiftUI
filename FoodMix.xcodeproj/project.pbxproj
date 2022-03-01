@@ -14,6 +14,7 @@
 		1C74202827F467350087D2E9 /* FoodMix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C74202627F467350087D2E9 /* FoodMix.xcdatamodeld */; };
 		1C74202A27F468350087D2E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C74202927F468350087D2E9 /* GoogleService-Info.plist */; };
 		1C74202C27F469E90087D2E9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74202B27F469E90087D2E9 /* Persistence.swift */; };
+		1C74202F27F46B790087D2E9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74202E27F46B790087D2E9 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1C74202727F467350087D2E9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		1C74202927F468350087D2E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/FoodMix-Swift/FoodMix/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C74202B27F469E90087D2E9 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "../../../../Desktop/FoodMix-Swift/FoodMix/Persistence.swift"; sourceTree = "<group>"; };
+		1C74202E27F46B790087D2E9 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountView.swift; path = "../../../../../Desktop/FoodMix-Swift/FoodMix/View/AccountView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		1C74201527F45C590087D2E9 /* FoodMix */ = {
 			isa = PBXGroup;
 			children = (
+				1C74202D27F46B5F0087D2E9 /* View */,
 				1C74202B27F469E90087D2E9 /* Persistence.swift */,
 				1C74202627F467350087D2E9 /* FoodMix.xcdatamodeld */,
 				1C74202427F464950087D2E9 /* Assets.xcassets */,
@@ -74,6 +77,14 @@
 				1C74201D27F45C5A0087D2E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C74202D27F46B5F0087D2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C74202E27F46B790087D2E9 /* AccountView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				1C74202C27F469E90087D2E9 /* Persistence.swift in Sources */,
 				1C74202827F467350087D2E9 /* FoodMix.xcdatamodeld in Sources */,
 				1C74201727F45C590087D2E9 /* FoodMixApp.swift in Sources */,
+				1C74202F27F46B790087D2E9 /* AccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
