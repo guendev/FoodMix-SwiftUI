@@ -16,6 +16,10 @@
 		1C74202C27F469E90087D2E9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74202B27F469E90087D2E9 /* Persistence.swift */; };
 		1C74202F27F46B790087D2E9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74202E27F46B790087D2E9 /* AccountView.swift */; };
 		1C74203127F46C4C0087D2E9 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74203027F46C4C0087D2E9 /* ActivityView.swift */; };
+		1C74203327F46D360087D2E9 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74203227F46D360087D2E9 /* AuthView.swift */; };
+		1C74203527F46D400087D2E9 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74203427F46D400087D2E9 /* CategoriesView.swift */; };
+		1C74203727F46D500087D2E9 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74203627F46D500087D2E9 /* CategoryView.swift */; };
+		1C74203927F46D750087D2E9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74203827F46D750087D2E9 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		1C74202B27F469E90087D2E9 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "../../../../Desktop/FoodMix-Swift/FoodMix/Persistence.swift"; sourceTree = "<group>"; };
 		1C74202E27F46B790087D2E9 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountView.swift; path = "../../../../../Desktop/FoodMix-Swift/FoodMix/View/AccountView.swift"; sourceTree = "<group>"; };
 		1C74203027F46C4C0087D2E9 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityView.swift; path = "../../../../../Desktop/FoodMix-Swift/FoodMix/View/ActivityView.swift"; sourceTree = "<group>"; };
+		1C74203227F46D360087D2E9 /* AuthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthView.swift; path = "../../../../../Desktop/FoodMix-Swift/FoodMix/View/AuthView.swift"; sourceTree = "<group>"; };
+		1C74203427F46D400087D2E9 /* CategoriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesView.swift; path = "../../../../../Desktop/FoodMix-Swift/FoodMix/View/CategoriesView.swift"; sourceTree = "<group>"; };
+		1C74203627F46D500087D2E9 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryView.swift; path = "../../../../../Desktop/FoodMix-Swift/FoodMix/View/CategoryView.swift"; sourceTree = "<group>"; };
+		1C74203827F46D750087D2E9 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = "../../../../../Desktop/FoodMix-Swift/FoodMix/View/HomeView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,10 @@
 		1C74202D27F46B5F0087D2E9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1C74203827F46D750087D2E9 /* HomeView.swift */,
+				1C74203427F46D400087D2E9 /* CategoriesView.swift */,
+				1C74203627F46D500087D2E9 /* CategoryView.swift */,
+				1C74203227F46D360087D2E9 /* AuthView.swift */,
 				1C74203027F46C4C0087D2E9 /* ActivityView.swift */,
 				1C74202E27F46B790087D2E9 /* AccountView.swift */,
 			);
@@ -161,12 +173,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C74203527F46D400087D2E9 /* CategoriesView.swift in Sources */,
+				1C74203327F46D360087D2E9 /* AuthView.swift in Sources */,
 				1C74201927F45C590087D2E9 /* ContentView.swift in Sources */,
+				1C74203927F46D750087D2E9 /* HomeView.swift in Sources */,
 				1C74202C27F469E90087D2E9 /* Persistence.swift in Sources */,
 				1C74202827F467350087D2E9 /* FoodMix.xcdatamodeld in Sources */,
 				1C74201727F45C590087D2E9 /* FoodMixApp.swift in Sources */,
 				1C74202F27F46B790087D2E9 /* AccountView.swift in Sources */,
 				1C74203127F46C4C0087D2E9 /* ActivityView.swift in Sources */,
+				1C74203727F46D500087D2E9 /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
