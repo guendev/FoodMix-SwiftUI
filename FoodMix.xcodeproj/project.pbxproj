@@ -22,6 +22,8 @@
 		1C74205127F46F530087D2E9 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74204E27F46F530087D2E9 /* ActivityView.swift */; };
 		1C74205227F46F530087D2E9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74204F27F46F530087D2E9 /* HomeView.swift */; };
 		1C74205327F46F530087D2E9 /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74205027F46F530087D2E9 /* IngredientView.swift */; };
+		1C74205527F470320087D2E9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74205427F470320087D2E9 /* ProfileView.swift */; };
+		1C74205727F4703A0087D2E9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74205627F4703A0087D2E9 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		1C74204E27F46F530087D2E9 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		1C74204F27F46F530087D2E9 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1C74205027F46F530087D2E9 /* IngredientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
+		1C74205427F470320087D2E9 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1C74205627F4703A0087D2E9 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				1C74204527F46E960087D2E9 /* MainView.swift */,
 				1C74204E27F46F530087D2E9 /* ActivityView.swift */,
 				1C74204F27F46F530087D2E9 /* HomeView.swift */,
+				1C74205627F4703A0087D2E9 /* AccountView.swift */,
+				1C74205427F470320087D2E9 /* ProfileView.swift */,
 				1C74205027F46F530087D2E9 /* IngredientView.swift */,
 				1C74204627F46E960087D2E9 /* NotificationView.swift */,
 				1C74204227F46E6D0087D2E9 /* RecipeView.swift */,
@@ -180,8 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C74201927F45C590087D2E9 /* ContentView.swift in Sources */,
+				1C74205527F470320087D2E9 /* ProfileView.swift in Sources */,
 				1C74204A27F46E960087D2E9 /* MainView.swift in Sources */,
 				1C74204B27F46E960087D2E9 /* NotificationView.swift in Sources */,
+				1C74205727F4703A0087D2E9 /* AccountView.swift in Sources */,
 				1C74205327F46F530087D2E9 /* IngredientView.swift in Sources */,
 				1C74205127F46F530087D2E9 /* ActivityView.swift in Sources */,
 				1C74202827F467350087D2E9 /* FoodMix.xcdatamodeld in Sources */,
