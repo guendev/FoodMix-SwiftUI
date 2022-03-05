@@ -25,6 +25,7 @@
 		1C74205527F470320087D2E9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74205427F470320087D2E9 /* ProfileView.swift */; };
 		1C74205727F4703A0087D2E9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74205627F4703A0087D2E9 /* AccountView.swift */; };
 		1C74205A27F471F10087D2E9 /* Account in Resources */ = {isa = PBXBuildFile; fileRef = 1C74205927F471F10087D2E9 /* Account */; };
+		1C74205C27F472A60087D2E9 /* Activity in Resources */ = {isa = PBXBuildFile; fileRef = 1C74205B27F472A60087D2E9 /* Activity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		1C74205427F470320087D2E9 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1C74205627F4703A0087D2E9 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		1C74205927F471F10087D2E9 /* Account */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Account; sourceTree = "<group>"; };
+		1C74205B27F472A60087D2E9 /* Activity */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Activity; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		1C74205827F471BD0087D2E9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1C74205B27F472A60087D2E9 /* Activity */,
 				1C74205927F471F10087D2E9 /* Account */,
 			);
 			path = Components;
@@ -186,6 +189,7 @@
 				1C74205A27F471F10087D2E9 /* Account in Resources */,
 				1C74202527F464950087D2E9 /* Assets.xcassets in Resources */,
 				1C74201E27F45C5A0087D2E9 /* Preview Assets.xcassets in Resources */,
+				1C74205C27F472A60087D2E9 /* Activity in Resources */,
 				1C74202A27F468350087D2E9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
