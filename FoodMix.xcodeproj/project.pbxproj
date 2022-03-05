@@ -24,6 +24,7 @@
 		1C74205327F46F530087D2E9 /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74205027F46F530087D2E9 /* IngredientView.swift */; };
 		1C74205527F470320087D2E9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74205427F470320087D2E9 /* ProfileView.swift */; };
 		1C74205727F4703A0087D2E9 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C74205627F4703A0087D2E9 /* AccountView.swift */; };
+		1C74205A27F471F10087D2E9 /* Account in Resources */ = {isa = PBXBuildFile; fileRef = 1C74205927F471F10087D2E9 /* Account */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		1C74205027F46F530087D2E9 /* IngredientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
 		1C74205427F470320087D2E9 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		1C74205627F4703A0087D2E9 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		1C74205927F471F10087D2E9 /* Account */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Account; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		1C74201527F45C590087D2E9 /* FoodMix */ = {
 			isa = PBXGroup;
 			children = (
+				1C74205827F471BD0087D2E9 /* Components */,
 				1C74202D27F46B5F0087D2E9 /* View */,
 				1C74202627F467350087D2E9 /* FoodMix.xcdatamodeld */,
 				1C74202427F464950087D2E9 /* Assets.xcassets */,
@@ -112,6 +115,14 @@
 				1C74204227F46E6D0087D2E9 /* RecipeView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1C74205827F471BD0087D2E9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1C74205927F471F10087D2E9 /* Account */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C74205A27F471F10087D2E9 /* Account in Resources */,
 				1C74202527F464950087D2E9 /* Assets.xcassets in Resources */,
 				1C74201E27F45C5A0087D2E9 /* Preview Assets.xcassets in Resources */,
 				1C74202A27F468350087D2E9 /* GoogleService-Info.plist in Resources */,
