@@ -49,6 +49,9 @@
 		1C74205627F4703A0087D2E9 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		1C74205927F471F10087D2E9 /* Account */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Account; sourceTree = "<group>"; };
 		1C74205B27F472A60087D2E9 /* Activity */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Activity; sourceTree = "<group>"; };
+		1C74205E27F473360087D2E9 /* AuthFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthFormView.swift; sourceTree = "<group>"; };
+		1C74206027F4735F0087D2E9 /* CategoryAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryAboutView.swift; sourceTree = "<group>"; };
+		1C74206127F4735F0087D2E9 /* CategoryStretchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryStretchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,10 +125,29 @@
 		1C74205827F471BD0087D2E9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1C74205F27F4735F0087D2E9 /* Category */,
 				1C74205B27F472A60087D2E9 /* Activity */,
+				1C74205D27F473360087D2E9 /* Auth */,
 				1C74205927F471F10087D2E9 /* Account */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		1C74205D27F473360087D2E9 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				1C74205E27F473360087D2E9 /* AuthFormView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1C74205F27F4735F0087D2E9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1C74206027F4735F0087D2E9 /* CategoryAboutView.swift */,
+				1C74206127F4735F0087D2E9 /* CategoryStretchView.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
