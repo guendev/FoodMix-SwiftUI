@@ -31,6 +31,9 @@
 		1C74206727F474280087D2E9 /* Includes in Resources */ = {isa = PBXBuildFile; fileRef = 1C74206627F474280087D2E9 /* Includes */; };
 		1C74206927F475100087D2E9 /* Profile in Resources */ = {isa = PBXBuildFile; fileRef = 1C74206827F475100087D2E9 /* Profile */; };
 		1C74206B27F4751A0087D2E9 /* Recipe in Resources */ = {isa = PBXBuildFile; fileRef = 1C74206A27F4751A0087D2E9 /* Recipe */; };
+		1C74206D27F475D70087D2E9 /* Search in Resources */ = {isa = PBXBuildFile; fileRef = 1C74206C27F475D70087D2E9 /* Search */; };
+		1C74206F27F475DF0087D2E9 /* Setting in Resources */ = {isa = PBXBuildFile; fileRef = 1C74206E27F475DF0087D2E9 /* Setting */; };
+		1C74207127F475E50087D2E9 /* Welcome in Resources */ = {isa = PBXBuildFile; fileRef = 1C74207027F475E50087D2E9 /* Welcome */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		1C74206627F474280087D2E9 /* Includes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Includes; sourceTree = "<group>"; };
 		1C74206827F475100087D2E9 /* Profile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Profile; sourceTree = "<group>"; };
 		1C74206A27F4751A0087D2E9 /* Recipe */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Recipe; sourceTree = "<group>"; };
+		1C74206C27F475D70087D2E9 /* Search */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Search; sourceTree = "<group>"; };
+		1C74206E27F475DF0087D2E9 /* Setting */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Setting; sourceTree = "<group>"; };
+		1C74207027F475E50087D2E9 /* Welcome */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Welcome; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,9 @@
 		1C74205827F471BD0087D2E9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1C74207027F475E50087D2E9 /* Welcome */,
+				1C74206E27F475DF0087D2E9 /* Setting */,
+				1C74206C27F475D70087D2E9 /* Search */,
 				1C74206A27F4751A0087D2E9 /* Recipe */,
 				1C74206827F475100087D2E9 /* Profile */,
 				1C74206627F474280087D2E9 /* Includes */,
@@ -223,14 +232,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C74206D27F475D70087D2E9 /* Search in Resources */,
 				1C74206B27F4751A0087D2E9 /* Recipe in Resources */,
 				1C74205A27F471F10087D2E9 /* Account in Resources */,
+				1C74207127F475E50087D2E9 /* Welcome in Resources */,
 				1C74202527F464950087D2E9 /* Assets.xcassets in Resources */,
 				1C74201E27F45C5A0087D2E9 /* Preview Assets.xcassets in Resources */,
 				1C74206927F475100087D2E9 /* Profile in Resources */,
 				1C74205C27F472A60087D2E9 /* Activity in Resources */,
 				1C74202A27F468350087D2E9 /* GoogleService-Info.plist in Resources */,
 				1C74206327F4740D0087D2E9 /* Notification in Resources */,
+				1C74206F27F475DF0087D2E9 /* Setting in Resources */,
 				1C74206527F4741C0087D2E9 /* Home in Resources */,
 				1C74206727F474280087D2E9 /* Includes in Resources */,
 			);
