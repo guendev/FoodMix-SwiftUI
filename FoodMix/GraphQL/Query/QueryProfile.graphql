@@ -1,0 +1,57 @@
+query GetReviewsProfile($id: String!, $filter: SortOption!) {
+  getReviewsProfile(id: $id, filter: $filter) {
+	id
+	user {
+	  id
+	  name
+	  email
+	  slug
+	  avatar
+	}
+	content
+	totalRating
+	createdAt
+	recipe {
+	  id
+	  name
+	  slug
+	  avatar
+	  countRating
+	  totalRating
+	}
+  }
+}
+
+query GetProfile($id: String!) {
+  getProfile(id: $id) {
+	id
+	name
+	email
+	slug
+	avatar
+	banner
+	province
+	about
+	countRecipe
+	countRating
+	totalRating
+	createdAt
+  }
+}
+
+query GetRecipesProfile($id: String!, $filter: SortOption!) {
+  getRecipesProfile(id: $id, filter: $filter) {
+	  id
+	  name
+	  slug
+	  avatar
+	  countRating
+	  totalRating
+	  user {
+		id
+		name
+		slug
+		avatar
+	  }
+  }
+}

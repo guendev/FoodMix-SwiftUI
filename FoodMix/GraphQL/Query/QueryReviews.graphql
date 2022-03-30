@@ -1,0 +1,31 @@
+query GetReviews($id: String!, $filter: SortOption!) {
+  getReviews(id: $id, filter: $filter) {
+	id
+	user {
+	  id
+	  name
+	  email
+	  slug
+	  avatar
+	}
+	content
+	createdAt
+	totalRating
+  }
+}
+
+subscription SubNewReviews($id: String) {
+  subNewReviews(id: $id) {
+	  id
+	  user {
+		id
+		name
+		email
+		slug
+		avatar
+	  }
+	  content
+	  createdAt
+	  totalRating
+  }
+}

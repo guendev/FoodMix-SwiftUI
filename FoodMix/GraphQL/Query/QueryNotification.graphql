@@ -1,0 +1,42 @@
+query GetNotifications($filter: SortOption!) {
+  getNotifications(filter: $filter) {
+	id
+	icon
+	title
+	content
+	readAt
+	createdAt
+	sender {
+	  id
+	  name
+	  email
+	  slug
+	  avatar
+	}
+  }
+}
+
+mutation ReadNotication($id: String) {
+  readNotication(id: $id) {
+	id
+	readAt
+  }
+}
+
+subscription SubNotification {
+  subNotification {
+	id
+	sender {
+	  id
+	  name
+	  email
+	  slug
+	  avatar
+	}
+	icon
+	title
+	content
+	readAt
+	createdAt
+  }
+}

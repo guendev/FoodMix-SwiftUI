@@ -1,0 +1,13 @@
+subscription SubNotify {
+  subNotify {
+	error
+	msg
+	user {
+	  id
+	  name
+	  avatar
+	  slug
+	  role
+	}
+  }
+}

@@ -1,0 +1,41 @@
+query Me {
+  me {
+	id
+	name
+	email
+	slug
+	avatar
+	role
+	gender
+  }
+}
+
+
+query GetUsers($filter: SortOption!) {
+  getUsers(filter: $filter) {
+	id
+	name
+	email
+	slug
+	role
+	avatar
+	countRecipe
+  }
+}
+
+subscription SubAccount {
+  subAccount {
+	id
+	name
+	slug
+	gender
+	role
+	avatar
+	banner
+	province
+	about
+	countRecipe
+	countRating
+	totalRating
+  }
+}

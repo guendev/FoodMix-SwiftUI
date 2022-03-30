@@ -1,0 +1,6 @@
+mutation BookmarkToggle($id: String!) {
+  bookmarkToggle(id: $id) {
+	id
+	createdAt
+  }
+}

@@ -1,0 +1,143 @@
+query GetRecipe($id: String!) {
+  getRecipe(id: $id) {
+	id
+	name
+	slug
+	avatar
+	content
+	category {
+	  id
+	  name
+	  slug
+	  icon
+	}
+	user {
+	  id
+	  name
+	  email
+	  slug
+	  avatar
+	  countRecipe
+	}
+	ingredients {
+	  name
+	  count
+	  unit
+	}
+	stepper {
+	  name
+	  content
+	  image
+	}
+	time
+	preparation
+	views
+	countRating
+	totalRating
+  }
+}
+
+
+query HomeUpdated($filter: SortOption!) {
+  getRecipes(filter: $filter) {
+	id
+	name
+	slug
+	avatar
+	content
+	totalRating
+	countRating
+	user {
+	  id
+	  name
+	  slug
+	  avatar
+	}
+  }
+}
+
+query CheckBookmark($id: String!) {
+  checkBookmark(id: $id) {
+	id
+	createdAt
+  }
+}
+
+
+query GetSearchRecipes($filter: SearchRecipeFilter!) {
+  getSearchRecipes(filter: $filter) {
+	id
+	name
+	slug
+	avatar
+	content
+	totalRating
+	countRating
+	user {
+	  id
+	  name
+	  slug
+	  avatar
+	}
+	category {
+	  id
+	  name
+	  slug
+	}
+  }
+}
+
+query GetSearchRecipesByIngredient($name: String!, $filter: SortOption!) {
+  getSearchRecipesByIngredient(name: $name, filter: $filter) {
+	  id
+	  name
+	  slug
+	  avatar
+	  content
+	  totalRating
+	  countRating
+	  user {
+		id
+		name
+		slug
+		avatar
+	  }
+  }
+}
+
+subscription SubRecipe($id: String!) {
+	  subRecipe(id: $id) {
+		__typename
+		id
+		name
+		slug
+		avatar
+		content
+		totalRating
+		countRating
+	  }
+	
+}
+
+query GetRandomRecipes($size: Int!) {
+  getRandomRecipes(size: $size) {
+	id
+	name
+	slug
+	avatar
+	content
+	totalRating
+	countRating
+	user {
+	  id
+	  name
+	  slug
+	  avatar
+	}
+	category {
+	  id
+	  name
+	  slug
+	}
+  }
+}

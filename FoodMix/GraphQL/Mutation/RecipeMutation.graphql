@@ -1,0 +1,15 @@
+mutation AddReview($id: String!, $input: AddReviewInput!) {
+  addReview(id: $id, input: $input) {
+	id
+	content
+	totalRating
+	createdAt
+	user {
+	  id
+	  name
+	  email
+	  slug
+	  avatar
+	}
+  }
+}
